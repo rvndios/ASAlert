@@ -21,4 +21,5 @@ s.source_files     = "ASAlert", "ASAlert/**/*.{h,m,swift}"
 #10
 s.resource_bundles = {
 'ASAlert' => ['ASAlert/**/*.{storyboard,xib}']
+}
 end
