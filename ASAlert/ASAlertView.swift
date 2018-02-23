@@ -11,11 +11,11 @@
 import UIKit
 
 public class ASAlertView: UIView {
-
+    
     @IBOutlet weak var imgView: UIImageView!
     @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var lblMessage: UILabel!
-     var nibName: String = "ASAlertView"
+    var nibName: String = "ASAlertView"
     var contentView: UIView!
     var timer: Timer?
     
@@ -95,5 +95,5 @@ public class ASAlertView: UIView {
             self.removeFromSuperview()
         }
     }
-
+    
 }
