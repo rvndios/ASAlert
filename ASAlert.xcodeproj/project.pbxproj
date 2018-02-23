@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F237E59E20402F0A007B986A /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2DE78D2203D67FE00BEDEA3 /* icon@3x.png */; };
+		F237E5A120402F42007B986A /* LoginKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F237E59F20402F42007B986A /* LoginKit.swift */; };
+		F237E5A220402F42007B986A /* LoginKit.xib in Resources */ = {isa = PBXBuildFile; fileRef = F237E5A020402F42007B986A /* LoginKit.xib */; };
 		F2DE78BE203D674100BEDEA3 /* ASAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DE78B4203D674100BEDEA3 /* ASAlert.framework */; };
 		F2DE78C3203D674100BEDEA3 /* ASAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE78C2203D674100BEDEA3 /* ASAlertTests.swift */; };
 		F2DE78C5203D674100BEDEA3 /* ASAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = F2DE78B7203D674100BEDEA3 /* ASAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F237E59F20402F42007B986A /* LoginKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginKit.swift; sourceTree = "<group>"; };
+		F237E5A020402F42007B986A /* LoginKit.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginKit.xib; sourceTree = "<group>"; };
 		F2DE78B4203D674100BEDEA3 /* ASAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2DE78B7203D674100BEDEA3 /* ASAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASAlert.h; sourceTree = "<group>"; };
 		F2DE78B8203D674100BEDEA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,6 +86,8 @@
 				F2DE78CE203D675700BEDEA3 /* ASAlertView.swift */,
 				F2DE78D2203D67FE00BEDEA3 /* icon@3x.png */,
 				F2DE78D0203D678A00BEDEA3 /* ASAlertView.xib */,
+				F237E59F20402F42007B986A /* LoginKit.swift */,
+				F237E5A020402F42007B986A /* LoginKit.xib */,
 			);
 			path = ASAlert;
 			sourceTree = "<group>";
@@ -188,7 +195,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F237E59E20402F0A007B986A /* icon@3x.png in Resources */,
 				F2DE78D1203D678A00BEDEA3 /* ASAlertView.xib in Resources */,
+				F237E5A220402F42007B986A /* LoginKit.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F237E5A120402F42007B986A /* LoginKit.swift in Sources */,
 				F2DE78CF203D675700BEDEA3 /* ASAlertView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
